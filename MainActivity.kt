@@ -1,4 +1,4 @@
-package com.michaelmuratov.healthapp
+package com.andrewmuratov.healthapp
 
 import android.os.Bundle
 import android.view.WindowManager

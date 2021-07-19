@@ -5,16 +5,16 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import androidx.fragment.app.Fragment
-import com.michaelmuratov.healthapp.Fragments.PhotoFragment
-import com.michaelmuratov.healthapp.Fragments.SurveyFragment
-import com.michaelmuratov.healthapp.Fragments.VoiceFragment
+import com.example.woreaseaway.Fragments.PhotoFragment
+import com.example.woreaseaway.Fragments.SurveyFragment
+import com.example.woreaseaway.Fragments.VoiceFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
         getWindow().setFlags(
-            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN);
+                WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main)
 
 
